@@ -1,3 +1,4 @@
+import ssl_fix  # noqa: F401 - patches requests SSL verification
 from fastapi import FastAPI, HTTPException, BackgroundTasks
 from fastapi.responses import StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
